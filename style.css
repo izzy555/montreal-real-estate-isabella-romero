@@ -220,7 +220,9 @@ header .branding {
     margin: 0 1rem 0 1rem;
   }
   
-  figcaption {}
+  figcaption {
+    margin-top: 0;
+  }
 
   h1 {
     line-height: 47px;
@@ -281,12 +283,14 @@ header .branding {
     line-height: 21px;
     margin-bottom: 1rem;
     margin-left: 3rem;
+    list-style-type: inherit;
   }
 
   ol {
     line-height: 21px;
     margin-bottom: 1rem;
     margin-left: 3rem;
+    list-style-type: inherit;
   }
   
   section>h2 {}
