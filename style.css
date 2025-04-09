@@ -99,8 +99,8 @@
     --accent-color: rgb(63, 77, 159);
     --highlight-color: #f3c;
   
-    --titles-font: "helvetica neue", helvetica, arial, sans-serif;
-    --bodytext-font: "helvetica neue", helvetica, arial, sans-serif;
+    --titles-font: "Crimson Text", serif;
+    --bodytext-font: "Inria Sans", sans-serif;
 
 
    --footerNav-bg-color: rgb(255, 255, 255);
@@ -141,12 +141,16 @@
     font-family: var(--bodytext-font);
     color: var(--bodytext-color); 
     background-color: var(--main-bg-color);
+    font-weight: 400;
+    font-style: normal;
   }
 
 
   h1,h2,h3,h4,h5,h6,label,legend {
     font-family: var(--titles-font);
     color: var(--titles-color);
+    font-weight: 400;
+  font-style: normal;
   }
   
   
@@ -206,18 +210,48 @@ header .branding {
  aside {
     font-size: small;
  }
-  
-  figure {}
+ p {
+  line-height: 20px;
+  margin: 1rem 1rem 1rem 1rem;
+} 
+
+  figure {
+    line-height: 34px;
+    margin: 0 1rem 0 1rem;
+  }
   
   figcaption {}
+
+  h1 {
+    line-height: 47px;
+  font-size: 2.3em;
+    margin: 2em 1rem 1em 1rem;
+  }
   
+  h2 {
+    margin: 2em 1rem 1em 1rem;
+  }
   h2+p {}
   
   H2+ul, h2+ol {}
+
+  iframe {
+    margin: 1rem 0 1rem 0;
+  }
   
   h2+iframe {}
+
+  form {
+    line-height: 30px;
+  font-size: 10px;
+  margin: 2em 1rem 1em 1rem;
+  }
   
   h2+form {}
+
+  blockquote {
+    margin: 2em 0 1em 0;
+  }
   
   h2+blockquote {}
   
@@ -227,13 +261,33 @@ header .branding {
 
   h2+h3 {}
   
-  table {}
+  table {
+    line-height: 25px;
+    margin: 0 1rem 0 1rem;
+  }
   
   .gallery {}
   
   blockquote {}
   
+  h3 {
+    font-size: 1.6em;
+    margin: 2em 1rem 1em 1rem;
+  }
+
   h3+p {}
+
+  ul {
+    line-height: 21px;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+
+  ol {
+    line-height: 21px;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
   
   section>h2 {}
   
