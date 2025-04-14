@@ -290,7 +290,7 @@ header .branding {
     line-height: 21px;
     margin-bottom: 1rem;
     margin-left: 3rem;
-    list-style-type: inherit;
+    list-style-type: numbers;
   }
   
   section>h2 {}
